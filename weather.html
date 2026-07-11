@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Weather App | HB Portfolio</title>
+
+<meta name="description" content="Check live weather updates for any city using the OpenWeather API with a responsive weather application.">
+
+<meta name="keywords" content="Weather App, OpenWeather API, HTML, CSS, JavaScript, Live Weather">
+
+<meta name="author" content="Himansh Bhagi">
+
+<meta name="robots" content="index, follow">
+
+<meta name="theme-color" content="#0d6efd">
+
+<meta property="og:title" content="Weather App | HB Portfolio">
+
+<meta property="og:description" content="Get real-time weather information for any city with the Weather App.">
+
+<meta property="og:type" content="website">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<nav>
+<h2><span>HB</span> Portfolio</h2>
+
+<div class="menu-toggle" id="menu-toggle" role="button" aria-label="Open Navigation Menu">☰</div>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="weather.html">Weather</a></li>
+<li><a href="todo.html">Todo</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+<button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+
+</nav>
+</header>
+
+<section class="weather-box">
+
+<h1>Weather App</h1>
+
+<p>Search any city to get the latest weather information.</p>
+
+<input
+type="text"
+id="cityInput"
+placeholder="Enter City Name">
+
+<br><br>
+
+<button id="searchWeather">
+Search Weather
+</button>
+
+<div id="weatherResult"></div>
+
+</section>
+
+<footer>
+<p>&copy; 2026 My Website</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
