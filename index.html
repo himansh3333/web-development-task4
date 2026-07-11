@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <meta name="description" content="Responsive portfolio website featuring modern web development projects, Weather App, Todo List, and interactive JavaScript components.">
+
+<meta name="keywords" content="Portfolio, Web Development, HTML, CSS, JavaScript, Weather App, Todo List, Frontend Developer">
+
+<meta name="author" content="Himansh Bhagi">
+
+<meta name="robots" content="index, follow">
+
+<meta name="theme-color" content="#0d6efd">
+
+<meta property="og:title" content="HB Portfolio Website">
+
+<meta property="og:description" content="Responsive portfolio website with Weather App, Todo List, and modern web development projects.">
+
+<meta property="og:type" content="website">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+   <nav>
+    <h2><span>HB</span> Portfolio</h2>
+
+    <div class="menu-toggle" id="menu-toggle" role="button" aria-label="Open Navigation Menu">☰</div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="weather.html">Weather</a></li>
+<li><a href="todo.html">Todo</a></li>
+    </ul>
+
+    <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+</nav>
+</header>
+<main>
+    <section class="hero">
+       <h1>Innovative Web Solutions for Modern Businesses</h1>
+
+<p>
+Building responsive, scalable and user-focused websites with modern design principles.
+</p>
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800" alt="Coding Banner" loading="lazy">
+        <a href="services.html" class="btn">Explore Services</a>
+    </section>
+<section class="slider">
+
+    <img id="slider" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800" alt="Slider Image" loading="lazy">
+
+    <div class="slider-buttons">
+    <button onclick="prevSlide()" aria-label="Previous Slide">❮</button>
+    <button onclick="nextSlide()" aria-label="Next Slide">❯</button>
+</div>
+
+</section>
+<section class="stats">
+
+    <div class="stat">
+        <h2 class="counter" data-target="120">0</h2>
+        <p>Projects</p>
+    </div>
+
+    <div class="stat">
+        <h2 class="counter" data-target="85">0</h2>
+        <p>Happy Clients</p>
+    </div>
+
+    <div class="stat">
+        <h2 class="counter" data-target="5">0</h2>
+        <p>Years Experience</p>
+    </div>
+
+</section>
+<section class="popup-section">
+
+    <button id="openModal" class="btn">
+        Learn More
+    </button>
+
+</section>
+
+<div id="modal" class="modal">
+
+    <div class="modal-content">
+
+        <span id="closeModal">&times;</span>
+
+        <h2>Welcome!</h2>
+
+        <p>
+            Thank you for visiting our website.
+            We build modern, responsive and user-friendly websites using HTML, CSS and JavaScript.
+        </p>
+
+    </div>
+
+</div>
+    <section class="services">
+        <h2>Our Services</h2>
+
+        <div class="card">
+            <h3>Web Development</h3>
+            <p>Responsive websites using HTML, CSS and JavaScript.</p>
+        </div>
+
+        <div class="card">
+            <h3>UI Design</h3>
+            <p>Simple and attractive user interface designs.</p>
+        </div>
+
+        <div class="card">
+            <h3>Support</h3>
+            <p>Website maintenance and technical support.</p>
+        </div>
+    </section>
+
+<section class="gallery">
+    <h2>Image Gallery</h2>
+
+    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400" alt="Web Development" loading="lazy" >
+
+<img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400" alt="Programming" loading="lazy" >
+
+<img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400" alt="Coding Workspace" loading="lazy" >
+</section>
+<section class="why-us">
+    <h2>Why Choose Us?</h2>
+
+    <div class="card">
+        <h3>Quality Work</h3>
+        <p>We build responsive and user-friendly websites with clean code.</p>
+    </div>
+
+    <div class="card">
+        <h3>Fast Delivery</h3>
+        <p>Projects are completed on time with attention to detail.</p>
+    </div>
+
+    <div class="card">
+        <h3>24/7 Support</h3>
+        <p>We provide continuous support and maintenance for our clients.</p>
+    </div>
+</section>
+<section class="testimonials">
+    <h2>What Our Clients Say</h2>
+
+    <div class="card">
+        <p>"Excellent website and great support!"</p>
+        <h4>- Rahul Sharma</h4>
+    </div>
+
+    <div class="card">
+        <p>"Very professional and responsive design."</p>
+        <h4>- Priya Verma</h4>
+    </div>
+</section>
+</main>
+<footer>
+    <p>&copy; 2026 My Website | All Rights Reserved.</p>
+    
+</footer>
+<button id="topBtn" aria-label="Back to Top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
