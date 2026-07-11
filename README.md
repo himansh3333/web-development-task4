@@ -1,41 +1,48 @@
-Task 4 – Performance, SEO & Code Quality
+🚀 Task 4 – Performance, SEO & Code Quality
 
-Overview
+📌 Overview
 
-This project is part of my Web Development Internship (Task 4). The main objective was to improve website performance, SEO, accessibility, and overall code quality while keeping the website fully responsive and user-friendly.
+This project is part of my Web Development Internship (Task 4). The primary objective was to improve website performance, SEO, accessibility, and overall code quality while maintaining a responsive and user-friendly experience.
 
-Features
+✨ Features
 
-- Responsive Portfolio Website
-- Dark Mode
-- Hamburger Navigation Menu
-- Weather App using OpenWeather API
-- Todo List with LocalStorage
-- Contact Form Validation
-- Image Slider
-- Animated Counters
-- Modal Popup
-- Back to Top Button
+- 🌐 Responsive Portfolio Website
+- 🌙 Dark Mode
+- 📱 Mobile-Friendly Navigation (Hamburger Menu)
+- 🌦️ Weather App (OpenWeather API)
+- ✅ Todo List with LocalStorage
+- 📩 Contact Form Validation
+- 🖼️ Image Slider
+- 📊 Animated Counters
+- 💬 Modal Popup
+- ⬆️ Back to Top Button
 
-SEO Improvements
+⚡ Performance Improvements
 
-- Meta Title
-- Meta Description
-- Meta Keywords
-- Author Meta Tag
-- Robots Meta Tag
-- Theme Color
-- Open Graph (OG) Meta Tags
+- 💤 Lazy Loading for Images
+- 🚀 Optimized Website Performance
+- 📈 Google PageSpeed Insights
+  - Mobile Performance: 94
+  - Desktop Performance: 99
 
-Accessibility Improvements
+🔍 SEO Improvements
 
-- Semantic HTML
-- Image Alt Text
-- ARIA Labels
-- Lazy Loading for Images
-- Responsive Design
+- ✅ Meta Title
+- ✅ Meta Description
+- ✅ Meta Keywords
+- ✅ Author Meta Tag
+- ✅ Robots Meta Tag
+- ✅ Theme Color
+- ✅ Open Graph (OG) Meta Tags
 
-Technologies Used
+♿ Accessibility Improvements
+
+- ✅ Semantic HTML
+- ✅ Image Alt Text
+- ✅ ARIA Labels
+- ✅ Responsive Design
+
+🛠️ Technologies Used
 
 - HTML5
 - CSS3
@@ -43,15 +50,19 @@ Technologies Used
 - OpenWeather API
 - LocalStorage
 
-Project Structure
+📂 Project Structure
 
 - HTML Pages
 - style.css
 - script.js
+- README.md
 
-GitHub Repository
+🎯 Results
 
-Task 4 Source Code
+- 🚀 Performance: 94 (Mobile) | 99 (Desktop)
+- ♿ Accessibility: 98
+- ✅ Best Practices: 100
+- 🔍 SEO: 100
 
-Author
+👨‍💻 Author
 Himansh Bhagi
