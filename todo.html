@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Todo List | HB Portfolio</title>
+
+<meta name="description" content="Organize your daily tasks with a responsive Todo List application built using HTML, CSS, JavaScript, and LocalStorage.">
+
+<meta name="keywords" content="Todo List, Task Manager, JavaScript, HTML, CSS, LocalStorage">
+
+<meta name="author" content="Himansh Bhagi">
+
+<meta name="robots" content="index, follow">
+
+<meta name="theme-color" content="#0d6efd">
+
+<meta property="og:title" content="Todo List | HB Portfolio">
+
+<meta property="og:description" content="Manage your daily tasks efficiently with a responsive Todo List application.">
+
+<meta property="og:type" content="website">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<nav>
+<h2><span>HB</span> Portfolio</h2>
+
+<div class="menu-toggle" id="menu-toggle" role="button" aria-label="Open Navigation Menu">☰</div>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="weather.html">Weather</a></li>
+<li><a href="todo.html">Todo</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+<button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+
+</nav>
+</header>
+
+<section class="weather-box">
+
+<h1>Todo List</h1>
+
+<p>Manage your daily tasks efficiently.</p>
+
+<input
+type="text"
+id="taskInput"
+placeholder="Enter a new task">
+
+<br><br>
+
+<button id="addTask">
+Add Task
+</button>
+
+<div class="filters">
+
+<button id="allBtn">All</button>
+
+<button id="activeBtn">Active</button>
+
+<button id="completedBtn">Completed</button>
+
+</div>
+
+<ul id="taskList"></ul>
+
+</section>
+
+<footer>
+<p>&copy; 2026 My Website</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
